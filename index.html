@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Web practica 9 Pablo Durán"/>
+	<meta name="keywords" content="Web,DIWEB,Pablo Durán,iesgc,daw"/>
+	<meta http-equiv="refresh" content="500"/>
+	<link rel=stylesheet href="css/normalize.css" type="text/css"/>
+	<link rel=stylesheet href="css/estilo.css" type="text/css"/>
+	<title>Gestor de Tareas</title>
+</head>
+<body>
+	<div id="e1">
+		<div id="e2">
+			<div id="e3">
+				<div id="e4">
+			<section>
+				<nav>
+					<ul>
+						<a href="#e1"><li class="icono" id="tareas"></li></a>
+						<a href="#e2"><li class="icono" id="nuevaTarea"></li></a>
+						<a href="#e3"><li class="icono" id="tareasCompletadas"></li></a>
+					</ul>
+				</nav>
+
+		<main>
+			<div class="pagina" id="p1">
+				<div class="listTareas">
+					<article>
+						<div class="tarea">
+							<header>
+								<h2>Gestor Tareas</h2>
+								<label class="modulo">DIWEB</label>
+							</header>
+							<p>Entregar Práctica 11: Aplicación Gestor de Tareas</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 10/12/2015, 13:15h</span>
+								<div class="iconos">
+									<a href="#" class="check"></a>
+									<a href="#" class="edit"></a>
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+					<article>
+						<div class="tarea">
+							<header>
+								<h2>Examen DWESE</h2>
+								<label class="modulo">DWESE</label>
+							</header>
+							<p>Examen PHP</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 9/12/2015, 11:15h</span>
+								<div class="iconos">
+									<a href="#" class="check"></a>
+									<a href="#" class="edit"></a>
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+					<article>
+						<div class="tarea">
+							<header>
+								<h2>Contador Baloncesto</h2>
+								<label class="modulo">HLC</label>
+							</header>
+							<p>Realizar ampliación del contador de baloncesto</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 10/12/2015, 8:15h</span>
+								<div class="iconos">
+									<a href="#" class="check"></a>
+									<a href="#" class="edit"></a>
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+					<article>
+						<div class="tarea">
+							<header>
+								<h2>Calculadora</h2>
+								<label class="modulo">HLC</label>
+							</header>
+							<p>Ampliación calculadora</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 10/12/2015, 8:15h</span>
+								<div class="iconos">
+									<a href="#" class="check"></a>
+									<a href="#" class="edit"></a>
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+					<article>
+						<div class="tarea">
+							<header>
+								<h2>Buscaminas</h2>
+								<label class="modulo">DWESE</label>
+							</header>
+							<p>Añadir desactivar minas.</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 10/12/2015, 8:15h</span>
+								<div class="iconos">
+									<a href="#" class="check"></a>
+									<a href="#" class="edit"></a>
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+
+				</div>
+			</div>
+			<div class="pagina" id="p2">
+				<h2>Nueva Tarea</h2>
+				<div class="nTareaForm">
+				     <form action="#" method="post">
+				     	<label>Titulo<span class="asteriscoR">&nbsp*</span></label><input class="form" type="text" name="nTarea" placeholder="Recado" required>
+				     	<label>Fecha Finalización</label><input type="date" placeholder="dd/mm/yyyy">
+				     	<label>Módulo</label><input type="text" name="nTarea" class="form">
+				     	<label>Descripción</label><textarea row="6" placeholder="ir al supermercado a comprar pan."></textarea>
+				     	<input type="submit" class="boton" value="Crear">
+				     </form>
+			 	</div>
+			</div>
+			<div class="pagina" id="p3">
+				<h2>Tareas Completadas</h2>
+				<article>
+						<div class="tareaC">
+							<header>
+								<h2>Examen DAWEB</h2>
+								<label class="modulo">DIWEB</label>
+							</header>
+							<p>Examen teórico de DAWEB</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 4/12/2015, 14:40h</span>
+								<div class="iconos">
+									
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+
+				   	<article>
+						<div class="tareaC">
+							<header>
+								<h2>Examen DAWEB</h2>
+								<label class="modulo">DIWEB</label>
+							</header>
+							<p>Examen práctico de DAWEB</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 1/12/2015, 14:40h</span>
+								<div class="iconos">	
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+
+					<article>
+						<div class="tareaC">
+							<header>
+								<h2>Lindo Gatito</h2>
+								<label class="modulo">DIWEB</label>
+							</header>
+							<p>Entregar práctica lindo Gatito Javascript</p>
+							<footer>
+								<span class="fecha">Fecha entrega: 10/12/2015, 8:15h</span>
+								<div class="iconos">	
+									<a href="#" class="remove"></a>
+								</div>
+							</footer>
+						</div>
+					</article>
+					
+			</div>
+		</section>
+	</main>
+	</div><!--e1-->
+	</div><!--e2-->
+	</div><!--e3-->
+	</div><!--e4-->
+</body>
+</html>
